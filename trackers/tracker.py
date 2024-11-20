@@ -6,7 +6,7 @@ import cv2
 import os
 import sys
 sys.path.append('../')
-from utils import get_center_of_bbox, get_bbox_width
+from utils import get_bbox_width, get_center_of_bbox
 
 class Tracker:
     def __init__(self, model_path):
@@ -155,7 +155,8 @@ class Tracker:
 
             # Draw players
             for track_id, player in player_dict.items():
-                frame = self.draw_ellipse(frame, player['bbox'], (0,0,255), track_id)
+                color = player.get("team_color", (0,0,255))
+                frame = self.draw_ellipse(frame, player['bbox'], color, track_id)
 
             # Draw Referee
             for _, referee in referee_dict.items():
