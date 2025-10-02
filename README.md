@@ -7,7 +7,7 @@ This system detects and tracks players, referees, and the ball from match videos
 - Camera motion estimation
 - Annotated match videos with real‑time overlays
 
-![Uploading image.png…]()
+![output.png]
 
 
 🚀 Features
