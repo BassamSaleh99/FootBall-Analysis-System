@@ -1,13 +1,4 @@
-# FootBall-Analysis-System
-
-Input-videos : https://drive.google.com/file/d/1XD6SEx9dE-H5qBUEpfRO85Q9kMeho9LP/view?usp=drive_link
-
-Roboflow dataset : https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/1
-
-Trained Yolov5 Model : https://drive.google.com/file/d/1gAsgiFV2DAbcxkcP6P-tI6Y-19ErCBTZ/view?usp=drive_link
-
-
-⚽ FootBall Analysis System
+# ⚽ FootBall Analysis System
 An advanced Computer Vision & Sports Analytics project for football match analysis.
 This system detects and tracks players, referees, and the ball from match videos, then generates insightful statistics such as:
 - Player speed (km/h)
@@ -15,6 +6,9 @@ This system detects and tracks players, referees, and the ball from match videos
 - Team ball possession percentage
 - Camera motion estimation
 - Annotated match videos with real‑time overlays
+
+![Uploading image.png…]()
+
 
 🚀 Features
 - YOLOv5 Object Detection – detect players, referees, and the ball with high accuracy
@@ -33,6 +27,7 @@ This system detects and tracks players, referees, and the ball from match videos
 - Roboflow Dataset
 
 📂 Project Structure
+
 FootBall-Analysis-System/
 │── input_videos/        # Place input videos here
 │── output_videos/       # Processed videos with analytics
@@ -67,9 +62,9 @@ pip install ultralytics supervision opencv-python numpy matplotlib pandas
 
 
 📚 Resources
-- 📂 Sample Input Video: Google Drive Link
-- 📂 Roboflow Dataset: Football Players Detection Dataset
-- 📂 Trained YOLOv5 Model: Google Drive Link
+- 📂 Sample Input Video: [Google Drive Link](https://drive.google.com/file/d/1XD6SEx9dE-H5qBUEpfRO85Q9kMeho9LP/view?usp=drive_link)
+- 📂 Roboflow Dataset: [Football Players Detection Dataset](https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/1)
+- 📂 Trained YOLOv5 Model: [Google Drive Link](https://drive.google.com/file/d/1gAsgiFV2DAbcxkcP6P-tI6Y-19ErCBTZ/view?usp=drive_link)
 
 📌 Future Improvements
 - Integrate DeepSORT for more robust multi‑object tracking
