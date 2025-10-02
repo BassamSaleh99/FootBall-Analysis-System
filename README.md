@@ -48,27 +48,16 @@ FootBall-Analysis-System/
 python main.py
 - Processed videos with overlays and statistics will be saved in output_videos/
 
-## 📊 Example Output
-- Player speed and distance covered
-- Team ball possession percentages
-- Camera motion vectors
-- Annotated video with real‑time analytics
-(Insert a sample frame or GIF here for maximum impact)
 
 ## 📦 Requirements
-pip install ultralytics supervision opencv-python numpy matplotlib pandas
-
-
+```
+!pip install ultralytics supervision opencv-python numpy matplotlib pandas
+```
 
 ## 📚 Resources
 - 📂 Sample Input Video: [Google Drive Link](https://drive.google.com/file/d/1XD6SEx9dE-H5qBUEpfRO85Q9kMeho9LP/view?usp=drive_link)
 - 📂 Roboflow Dataset: [Football Players Detection Dataset](https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/1)
 - 📂 Trained YOLOv5 Model: [Google Drive Link](https://drive.google.com/file/d/1gAsgiFV2DAbcxkcP6P-tI6Y-19ErCBTZ/view?usp=drive_link)
-
-## 📌 Future Improvements
-- Integrate DeepSORT for more robust multi‑object tracking
-- Add a web dashboard (Streamlit/Flask) for interactive analysis
-- Extend support to other sports (basketball, hockey, etc.)
 
 ## 🎯 About the Project
 This project combines state‑of‑the‑art object detection with sports analytics to solve real‑world problems in match analysis.
