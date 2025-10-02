@@ -7,6 +7,9 @@ This system detects and tracks players, referees, and the ball from match videos
 - Camera motion estimation
 - Annotated match videos with real‑time overlays
 
+![Uploading image.png…]()
+
+
 🚀 Features
 - YOLOv5 Object Detection – detect players, referees, and the ball with high accuracy
 - Team Assignment – cluster players into teams using KMeans color segmentation
