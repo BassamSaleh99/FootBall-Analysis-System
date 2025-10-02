@@ -10,7 +10,7 @@ This system detects and tracks players, referees, and the ball from match videos
 ![Output Example](output_videos/output.png)
 
 
-🚀 Features
+## 🚀 Features
 - YOLOv5 Object Detection – detect players, referees, and the ball with high accuracy
 - Team Assignment – cluster players into teams using KMeans color segmentation
 - Ball Possession Analysis – calculate each team’s ball control percentage
@@ -18,7 +18,7 @@ This system detects and tracks players, referees, and the ball from match videos
 - Perspective Transformation – convert pixel distances into real‑world meters
 - Speed & Distance Estimation – compute per‑player performance metrics
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 - Python 3.x
 - YOLOv5
 - OpenCV
@@ -26,8 +26,8 @@ This system detects and tracks players, referees, and the ball from match videos
 - Supervision
 - Roboflow Dataset
 
-📂 Project Structure
-
+## 📂 Project Structure
+'''
 FootBall-Analysis-System/
 │── input_videos/        # Place input videos here
 │── output_videos/       # Processed videos with analytics
@@ -40,8 +40,7 @@ FootBall-Analysis-System/
 │── player_ball_assigner/         # Ball-to-player assignment
 │── main.py              # Main entry point
 │── README.md
-
-
+'''
 
 ▶️ Usage
 - Place your match video inside input_videos/
