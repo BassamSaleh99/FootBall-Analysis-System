@@ -42,13 +42,6 @@ FootBall-Analysis-System/
 │── README.md
 ```
 
-## ▶️ Usage
-- Place your match video inside input_videos/
-- Run the system:
-python main.py
-- Processed videos with overlays and statistics will be saved in output_videos/
-
-
 ## 📦 Requirements
 ```
 !pip install ultralytics supervision opencv-python numpy matplotlib pandas
